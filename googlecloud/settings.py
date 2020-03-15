@@ -116,7 +116,7 @@ USE_TZ = True
 #https://libraries.io/pypi/django-google-cloud-storage
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
-GOOGLE_CLOUD_STORAGE_BUCKET = 'pontosturisticos' # the name of the bucket you have created from the google cloud storage console
+GOOGLE_CLOUD_STORAGE_BUCKET = '/pontosturisticos' # the name of the bucket you have created from the google cloud storage console
 GOOGLE_CLOUD_STORAGE_URL = 'http://storage.googleapis.com/pontosturisticos' #whatever the ulr for accessing your cloud storgage bucket
 GOOGLE_CLOUD_STORAGE_DEFAULT_CACHE_CONTROL = 'public, max-age: 7200' # default cache control headers for your files
 DEFAULT_FILE_STORAGE = 'django_google_cloud_storage.GoogleCloudStorage'
